@@ -31,17 +31,17 @@ Once activated, install the required packages:
 ```
 conda install numpy
 conda install pandas
-conda install plotly
 conda install dash
-conda install scipy
+conda install fpdf2
+conda install dash-bootstrap-components
 ```
 More information about setting up virtual environments and installing packages using conda:
 * Setting up and activating virtual environment
 * [Installing packages using conda](https://www.anaconda.com/docs/getting-started/working-with-conda/packages/install-packages)
 
-If you are having issues with installing plotly and/or dash:
+If you are having issues with installing dash or fpdf2:
 * Installation help for [dash](https://dash.plotly.com/installation)
-* Installation help for [plotly](https://plotly.com/python/getting-started)
+* Installation help for [fpdf2](https://github.com/py-pdf/fpdf2)
 
 ## Using pip 
 ### Manually setting up virtual environment and installing required dependencies
@@ -72,7 +72,7 @@ When you are no longer using the virtual environment (you need it to run the cod
 `deactivate`
 
 More information about setting up [virtual environments](https://www.w3schools.com/python/python_virtualenv.asp) and [installing packages using pip](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/):
-* Installation help for [plotly](https://plotly.com/python/getting-started/)
+* Installation help for [fpdf2](https://github.com/py-pdf/fpdf2)
 * Installation help for [dash](https://dash.plotly.com/installation) 
 
 ***
@@ -110,9 +110,9 @@ conda install plotly
 conda install dash
 conda install scipy
 ```
-If you are having issues with installing plotly and/or dash:
+If you are having issues with installing fpdf2 and/or dash:
 * Installation help for [dash](https://dash.plotly.com/installation)
-* Installation help for [plotly](https://plotly.com/python/getting-started)
+* Installation help for [fpdf2](https://github.com/py-pdf/fpdf2)
 
 More information about setting up virtual environments and installing packages using conda:
 * Setting up and activating virtual environment
@@ -146,5 +146,5 @@ When you are no longer using the virtual environment (you need it to run the cod
 `deactivate`
 
 More information about setting up [virtual environments](https://www.w3schools.com/python/python_virtualenv.asp) and [installing packages using pip](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/):
-* Installation help for [plotly](https://plotly.com/python/getting-started/)
+* Installation help for [fpdf2](https://github.com/py-pdf/fpdf2)
 * Installation help for [dash](https://dash.plotly.com/installation) 
