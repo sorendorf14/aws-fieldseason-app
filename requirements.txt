@@ -1,0 +1,4 @@
+numpy
+dash
+fpdf2
+dash_bootstrap_components
