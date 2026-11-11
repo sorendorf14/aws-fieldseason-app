@@ -33,8 +33,8 @@ import logging
 log = logging.getLogger('werkzeug')
 log.setLevel(logging.ERROR)
 
-figure_path = r'/Users/sorendorf/Pictures/'
-pdf_output_path = r'/Users/sorendorf/Desktop/'
+figure_path = r'/Users/username/Pictures/'
+pdf_output_path = r'/Users/username/Desktop/'
 
 
 red_button_style = {'color': 'white', 'background-color': 'red','width':'10'}
