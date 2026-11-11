@@ -34,8 +34,8 @@ import logging
 log = logging.getLogger('werkzeug')
 log.setLevel(logging.ERROR)
 
-figure_path = r'/Users/sorendorf/Pictures/'
-pdf_output_path = r'/Users/sorendorf/Desktop/'
+figure_path = r'/Users/username/Pictures/'
+pdf_output_path = r'/Users/username/Desktop/'
 
 red_button_style = {'color': 'white', 'background-color': 'red','width':'10'}
 default_button_style = {'color': 'black', 'background-color': 'lightgray','width':'10'}
@@ -944,11 +944,7 @@ def rm_pictures(nclicks, captions, filenames):
     State('datalogger-b4-out','data'),
     State('datalogger-after-out','data')],prevent_initial_call=True)
 
-#def update_output(nclicks,width_in,height_in,sb_file,sa_file,nb_file,na_file,eb_file,ea_file,wb_file,wa_file,extra_file,purpose,date,name,wx_notes,crew,transportation,lat,lon,field_notes,tup_b4,tlo_b4,pres_b4,rh_b4,adg_b4,wspd_b4,wdir_b4,tup_after,tlo_after,pres_after,rh_after,adg_after,wspd_after,wdir_after):
-#def update_output(nclicks,width_in,height_in,units,sb_file,sa_file,nb_file,na_file,eb_file,ea_file,wb_file,wa_file,extra_file,purpose,date,name,wx_notes,crew,transportation,lat,lon,field_notes,arrival_time_aws,arrival_time_base,depart_time_base,depart_time_aws,loc_method_sel,auto_loc,tup_b4,tlo_b4,pres_b4,rh_b4,adg_b4,wspd_b4,wdir_b4,tup_after,tlo_after,pres_after,rh_after,adg_after,wspd_after,wdir_after):
-#def update_output(nclicks,width_in,height_in,units,sb_file,sa_file,nb_file,na_file,eb_file,ea_file,wb_file,wa_file,extra_file,purpose,date,name,wx_notes,crew,transportation,lat,lon,field_notes,arrival_time_aws,arrival_time_base,depart_time_base,depart_time_aws,loc_method_sel,auto_loc,tup_b4,tup_after,tlo_b4,tlo_after,pres_b4,pres_after,rh_b4,rh_after,wspd_b4,wspd_after,wdir_b4,wdir_after,adg_b4,adg_after,datalogger_b4,datalogger_after):
 def update_output(nclicks,units,captions,filenames_store,sb_file,sa_file,nb_file,na_file,eb_file,ea_file,wb_file,wa_file,extra_file,purpose,date,name,wx_notes,crew,transportation,lat,lon,field_notes,arrival_time_aws,arrival_time_base,depart_time_base,depart_time_aws,loc_method_sel,auto_loc,t1_b4,t1_after,t2_b4,t2_after,t4_b4,t4_after,t7_b4,t7_after,t15_b4,t15_after,t30_b4,t30_after,pres1_b4,pres1_after,pres2_b4,pres2_after,pres4_b4,pres4_after,pres7_b4,pres7_after,pres15_b4,pres15_after,pres30_b4,pres30_after,rh1_b4,rh1_after,rh2_b4,rh2_after,rh4_b4,rh4_after,rh7_b4,rh7_after,rh15_b4,rh15_after,rh30_b4,rh30_after,wspd1_b4,wspd1_after,wspd2_b4,wspd2_after,wspd4_b4,wspd4_after,wspd7_b4,wspd7_after,wspd15_b4,wspd15_after,wspd30_b4,wspd30_after,wdir1_b4,wdir1_after,wdir2_b4,wdir2_after,wdir4_b4,wdir4_after,wdir7_b4,wdir7_after,wdir15_b4,wdir15_after,wdir30_b4,wdir30_after,adg_b4,adg_after,sw_b4,sw_after,datalogger_b4,datalogger_after):
-    #def update_output(nclicks,units,captions,filenames_store,extra_file,purpose,date,name,wx_notes,crew,transportation,lat,lon,field_notes,arrival_time_aws,arrival_time_base,depart_time_base,depart_time_aws,loc_method_sel,auto_loc,t1_b4,t1_after,t2_b4,t2_after,t4_b4,t4_after,t7_b4,t7_after,t15_b4,t15_after,t30_b4,t30_after,pres1_b4,pres1_after,pres2_b4,pres2_after,pres4_b4,pres4_after,pres7_b4,pres7_after,pres15_b4,pres15_after,pres30_b4,pres30_after,rh1_b4,rh1_after,rh2_b4,rh2_after,rh4_b4,rh4_after,rh7_b4,rh7_after,rh15_b4,rh15_after,rh30_b4,rh30_after,wspd1_b4,wspd1_after,wspd2_b4,wspd2_after,wspd4_b4,wspd4_after,wspd7_b4,wspd7_after,wspd15_b4,wspd15_after,wspd30_b4,wspd30_after,wdir1_b4,wdir1_after,wdir2_b4,wdir2_after,wdir4_b4,wdir4_after,wdir7_b4,wdir7_after,wdir15_b4,wdir15_after,wdir30_b4,wdir30_after,adg_b4,adg_after,datalogger_b4,datalogger_after):
    
     if units == 'inches':
         pass
@@ -1332,5 +1328,3 @@ def update_output(nclicks,units,captions,filenames_store,sb_file,sa_file,nb_file
 
 if __name__ == "__main__":
     app.run(port=8898)
-    #app.run(port=8898,debug=True)
-     #app.run( jupyter_mode='tab', port=8894,debug=False,dev_tools_ui=False,dev_tools_props_check=False)
